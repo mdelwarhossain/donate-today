@@ -18,7 +18,7 @@ body {
     font-size: 50px;
 }
 
-#align-center {
+.align-center {
     padding: 40px 300px;
 }
 
@@ -31,5 +31,52 @@ body {
     border-radius: 10px;
     transition-duration: 0.4s;
     cursor: pointer;
+    background-color: tomato;
+}
+
+#donate-container {
+    text-align: center;
+}
+
+#amount {
+    display: flex;
+}
+
+.background {
+    height: 100px;
+    width: 200px;
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+
+#second-button {
+    background-color: lightpink;
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+#button-inline-block {
+    display: grid;
+}
+
+#other-amount {
+    margin: 20px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+#donate-button-2 {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
     background-color: tomato;
 }
