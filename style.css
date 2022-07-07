@@ -32,6 +32,7 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: tomato;
+    margin-top: 20px;
 }
 
 #donate-container {
@@ -79,4 +80,63 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: tomato;
+}
+
+.donate-plan {
+    text-align: center;
+    padding: 40px 300px;
+}
+
+.donation-plan {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.donation-plan p {
+    font-size: small;
+}
+
+#food {
+    height: 200px;
+    background-image: url(donate-today-main/icons/food.png);
+    background-color: lightslategray;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    text-align: left;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+
+#shelter {
+    background-image: url(donate-today-main/icons/shelter.png);
+    background-color: lightpink;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    text-align: left;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#education {
+    background-image: url(donate-today-main/icons/Frame-1.png);
+    background-color: lightyellow;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    text-align: left;
+    margin-right: 10px;
+    padding-top: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+
 }
